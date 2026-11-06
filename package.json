@@ -1,0 +1,25 @@
+{
+  "name": "ikirere",
+  "version": "1.0.0",
+  "description": "A terminal weather tool: type a city, get the weather. Powered by Open-Meteo.",
+  "type": "module",
+  "bin": {
+    "ikirere": "./bin/ikirere.js"
+  },
+  "scripts": {
+    "start": "node bin/ikirere.js",
+    "help": "node bin/ikirere.js --help"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "cli",
+    "weather",
+    "open-meteo",
+    "nodejs"
+  ],
+  "author": "Tetaa",
+  "license": "MIT",
+  "dependencies": {}
+}
